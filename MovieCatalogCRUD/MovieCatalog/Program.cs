@@ -11,6 +11,8 @@ namespace MovieCatalog
         // Initial Submitting of Project
         static void Main(string[] args)
         {
+            Console.Write("Hello World...");
+            Console.ReadKey();
         }
     }
 }
