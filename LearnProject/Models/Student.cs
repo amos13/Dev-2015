@@ -9,6 +9,7 @@ namespace LearnSystemProject.Models
 {
     public class Student : Person
     {
+        //
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyy-mm-dd}", ApplyFormatInEditMode = true)]
         [Display(Name = "Enrollment Date")]
