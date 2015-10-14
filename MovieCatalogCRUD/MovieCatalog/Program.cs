@@ -6,6 +6,7 @@ using System.Linq;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MovieCatalog
 {
@@ -13,10 +14,10 @@ namespace MovieCatalog
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter a full name for an actor: ");
-
             using (var db = new MovieCatalogContext())
             {
+                Console.WriteLine("Enter a full name for an actor: ");
+
                 var fullname = Console.ReadLine();
 
                 var actor = new Actor { FullName = fullname };
@@ -27,7 +28,7 @@ namespace MovieCatalog
                                    orderby d.FullName
                                    select d;
 
-                Console.WriteLine("Show all full name in database: ");
+                Console.WriteLine("Show all full names in database: ");
 
                 foreach (var item in queryOfActor)
                 {
@@ -43,7 +44,6 @@ namespace MovieCatalog
     public class Director
     {
         public int DirectorID { get; set; }
-
         public string FullName { get; set; }
 
         public virtual ICollection<Movie> Movies { get; set; }
@@ -51,11 +51,12 @@ namespace MovieCatalog
 
     public class Movie
     {
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int MovieID { get; set; }
         public int CreditsID { get; set; }
         public int DirectorID { get; set; }
 
-        //public string Description { get; set; }
+        public string Plot { get; set; }
         public string Title { get; set; }
         public DateTime Year { get; set; }
 

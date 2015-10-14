@@ -52,9 +52,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Migrations\201510121534102_AddActors.cs" />
-    <Compile Include="Migrations\201510121534102_AddActors.Designer.cs">
-      <DependentUpon>201510121534102_AddActors.cs</DependentUpon>
+    <Compile Include="Migrations\201510121637109_AddActors.cs" />
+    <Compile Include="Migrations\201510121637109_AddActors.Designer.cs">
+      <DependentUpon>201510121637109_AddActors.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
@@ -65,8 +65,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201510121534102_AddActors.resx">
-      <DependentUpon>201510121534102_AddActors.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201510121637109_AddActors.resx">
+      <DependentUpon>201510121637109_AddActors.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
