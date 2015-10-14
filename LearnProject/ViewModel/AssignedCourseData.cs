@@ -8,7 +8,9 @@ namespace LearnSystemProject.ViewModel
 {
     public class AssignedCourseData
     {
-        //
+        /// <summary>
+        /// /
+        /// </summary>
         public int CourseID { get; set; }
         public string Tilte { get; set; }
         public bool Assigned { get; set; }
