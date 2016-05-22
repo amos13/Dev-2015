@@ -36,10 +36,4 @@
       <nickname>Stigen</nickname>
       <age>6</age>
    </customer>
-   <person nr="993">
-      <firstname>Stig</firstname>
-      <lastname>Haikkinen</lastname>
-      <nickname>Stigen</nickname>
-      <age>6</age>
-   </person>
 </customerDao>
