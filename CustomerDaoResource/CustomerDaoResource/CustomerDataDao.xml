@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<customerDao>
+   <customer nr="393">
+      <firstname>Amos</firstname>
+      <lastname>Aly</lastname>
+      <nickname>Camara</nickname>
+      <age>4</age>
+   </customer>
+   <customer nr="493">
+      <firstname>Elina</firstname>
+      <lastname>Haikkinen</lastname>
+      <nickname>Eli</nickname>
+      <age>35</age>
+   </customer>
+   <customer nr="593">
+      <firstname>Paulina</firstname>
+      <lastname>Laitinen</lastname>
+      <nickname>Pala</nickname>
+      <age>30</age>
+   </customer>
+   <customer nr="693">
+      <firstname>Mamoudou</firstname>
+      <lastname>Camara</lastname>
+      <nickname>Moutch</nickname>
+      <age>39</age>
+   </customer>
+   <customer nr="793">
+      <firstname>Erland</firstname>
+      <lastname>Laitinen</lastname>
+      <nickname>Erland</nickname>
+      <age>6</age>
+   </customer>
+   <customer nr="893">
+      <firstname>Stig</firstname>
+      <lastname>Haikkinen</lastname>
+      <nickname>Stigen</nickname>
+      <age>6</age>
+   </customer>
+   <person nr="993">
+      <firstname>Stig</firstname>
+      <lastname>Haikkinen</lastname>
+      <nickname>Stigen</nickname>
+      <age>6</age>
+   </person>
+</customerDao>
