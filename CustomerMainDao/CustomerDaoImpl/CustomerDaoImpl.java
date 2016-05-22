@@ -72,6 +72,10 @@ public class CustomerDaoImpl implements CustomerDaoService {
 		
 	}
 
+	/*
+	 * (non-Javadoc)
+	 * @see CustomerDao.CustomerDaoService#dispalyReadDataFrom(java.lang.String)
+	 */
 	@Override
 	public void dispalyReadDataFrom(String customerDisplayDaoXmlData) 
 	{
