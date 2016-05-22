@@ -13,7 +13,7 @@ import CustomerDao.CustomerDaoService;
 public class CustomerDaoImpl implements CustomerDaoService 
 {
 	/*
-	 * Instance of the string variable
+	 * Instance of string variable
 	 */
 	private String tagNameElement;
 	
