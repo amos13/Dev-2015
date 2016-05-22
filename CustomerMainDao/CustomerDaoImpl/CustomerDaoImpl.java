@@ -68,6 +68,9 @@ public class CustomerDaoImpl implements CustomerDaoService
 		} 
 		catch (Exception except) 
 		{
+			/*
+			 * Call the built Exception to get all error if the method doesn't work
+			 */
 			throw new CustomerDaoDataException("\nError Message: "+except.getMessage());
 		}
 		
