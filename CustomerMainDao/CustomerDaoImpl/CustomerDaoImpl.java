@@ -11,14 +11,23 @@ import CustomerCommonException.CustomerDaoDataException;
 import CustomerDao.CustomerDaoService;
 
 public class CustomerDaoImpl implements CustomerDaoService {
-
+/*
+ * Instance of the string variable
+ */
 	private String tagNameElement;
 	
+	/*
+	 * The constructor of the class
+	 */
 	public CustomerDaoImpl(String newTagNameElement) 
 	{	
 		this.tagNameElement = newTagNameElement;
 	}
 	
+	/*
+	 * (non-Javadoc)
+	 * @see CustomerDao.CustomerDaoService#readDataFromXmlFile(java.lang.String)
+	 */
 	@Override
 	public void readDataFromXmlFile(String customerDaoXmlData) throws CustomerDaoDataException
 	{
