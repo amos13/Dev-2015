@@ -83,6 +83,7 @@ public class CustomerDaoImpl implements CustomerDaoService
 	@Override
 	public void dispalyReadDataFrom(String customerDisplayDaoXmlData) 
 	{
+		// Call the display function
 		getDispalyReadDataFromXml(customerDisplayDaoXmlData);
 	}
 
