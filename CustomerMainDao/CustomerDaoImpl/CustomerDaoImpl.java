@@ -10,10 +10,11 @@ import org.w3c.dom.*;
 import CustomerCommonException.CustomerDaoDataException;
 import CustomerDao.CustomerDaoService;
 
-public class CustomerDaoImpl implements CustomerDaoService {
-/*
- * Instance of the string variable
- */
+public class CustomerDaoImpl implements CustomerDaoService 
+{
+	/*
+	 * Instance of the string variable
+	 */
 	private String tagNameElement;
 	
 	/*
