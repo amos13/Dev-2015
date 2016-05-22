@@ -82,6 +82,10 @@ public class CustomerDaoImpl implements CustomerDaoService {
 		getDispalyReadDataFromXml(customerDisplayDaoXmlData);
 	}
 
+	/*
+	 * (non-Javadoc)
+	 * @see CustomerDao.CustomerDaoService#getDispalyReadDataFromXml(java.lang.String)
+	 */
 	@Override
 	public void getDispalyReadDataFromXml(String customerDisplayDaoXml) {
 		System.out.println(customerDisplayDaoXml);
