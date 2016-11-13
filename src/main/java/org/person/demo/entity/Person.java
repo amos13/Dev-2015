@@ -10,8 +10,9 @@ public class Person {
 	private String PersonProfession;
 	private String PersonEmailAddress;
 	
-	public Person(int newID, Address newAddress, Gender newGender, String newName, 
-			Nationality newNationality, String newProfession, String newEmail)
+	public Person(int newID, Address newAddress, Gender newGender, 
+			String newName, Nationality newNationality, String newProfession,
+			String newEmail)
 	{
 		this.PersonID = newID;
 		this.address = newAddress;
