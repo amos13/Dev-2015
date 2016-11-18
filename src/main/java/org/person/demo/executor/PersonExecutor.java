@@ -14,10 +14,10 @@ public class PersonExecutor
 		
 		displayDetails("\n-----List of Persons-----");
 		
-		for (Person person : allPersons.CreatePersonList())
+		allPersons.CreatePersonList().stream().forEach((person) ->
 		{
 			displayDetails("\n"+person.toString());
-		} 
+		});
 		
 		Person updatePerson = allPersons.CreatePersonList().get(0);
 		
